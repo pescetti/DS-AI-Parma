@@ -14,7 +14,7 @@ We assume the default (Python 2) stack. Use Virtualenv for Python 3.
 - Java
 
 ```bash
-$ sudo dnf install python2-pip notebook python2-notebook install java-1.8.0-openjdk-devel
+$ sudo dnf install python2-pip notebook python2-notebook java-1.8.0-openjdk-devel
 ```
 
 Test your setup:
