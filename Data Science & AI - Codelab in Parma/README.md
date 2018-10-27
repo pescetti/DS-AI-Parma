@@ -1,36 +1,29 @@
 ![Python](https://img.shields.io/badge/python-3.5+,2.7-green.svg)
-![OS](https://img.shields.io/badge/OS-CentOS7-orange.svg)
+![OS](https://img.shields.io/badge/OS-Fedora-orange.svg)
 [![Platform](https://img.shields.io/badge/Platform-GoogleCloudPlatform-blue.svg)](https://cloud.google.com/free/)
 
-## Installing instructions
+## Installation instructions
 
-Requisites (examples shown in CentOS 7):
-* python (2.7+)
-* jupyter
-* pip
+We assume the default (Python 2) stack. Use Virtualenv for Python 3.
 
+### System Requirements
+
+- Python (2.7+)
+- pip
+- Jupyter
+- Java
+
+```bash
+$ sudo dnf install python2-pip notebook python2-notebook install java-1.8.0-openjdk-devel
 ```
-sudo yum upgrade python-setuptools
-sudo yum install python-pip python-wheel
+
+### Python requirements
+
+- mxnet
+- h2o
+- tensorflow
+- keras
+
+```bash
+$ sudo pip install mxnet h2o tensorflow keras
 ```
-
-* java
-
-`sudo yum install java-1.8.0-openjdk-devel`
-
-* mxnet
-
-`sudo pip install mxnet`
- 
-* h2o
-
-`sudo pip install h2o`
-
-* tensorflow
-
-`sudo pip install tensorflow`
-
-* keras
-
-`sudo pip install keras`
-
