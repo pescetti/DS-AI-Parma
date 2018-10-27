@@ -17,6 +17,12 @@ We assume the default (Python 2) stack. Use Virtualenv for Python 3.
 $ sudo dnf install python2-pip notebook python2-notebook install java-1.8.0-openjdk-devel
 ```
 
+Test your setup:
+
+```bash
+$ jupyter notebook
+```
+
 ### Python requirements
 
 - mxnet
